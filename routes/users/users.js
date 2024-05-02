@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     catch (err) {
     res.status(500).json({ error: err.message });
     }
-    res.send("GET called");    
+      
 });
 
 router.post('/authenticate', async (req, res) => {
